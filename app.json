@@ -1,0 +1,79 @@
+{
+  "name": "سورس جـــــــودزيـــــلا ",
+  "logo": "https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
+  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram", "fallen"],
+  "repository": "https://github.com/soursafyona/bonnU",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "ضع كود بايروجرام",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "ضع توكن بوتك يا قلبي",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description":" معرف بوتك @",
+      "required": false,
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": " معرف بوتك مره تانيه بدون @",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "ايبي ايدي ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "ايبي هاش ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true,
+            "value": "IVNII" 
+     }, 
+     "OWNER_USERNAME": {
+      "description": "معرف مطور البوت بدون @",
+      "required": false,
+      "value": "o_lU_o"
+    },
+    "SUPPORT_GROUP": {
+      "description": "معرف جروبك بدون @",
+      "required": false,
+      "value": "UUBU0"
+    },
+     "UPDATES_CHANNEL": {
+      "description": "معرف قناتك بدون @",
+       "required": true,
+       "value": "o_lU_o1"
+     }, 
+     "SUDO_USERS": {
+      "description": "ضع ايدي بتاعك",
+      "required": true,
+      "value": "5519241772"
+    },
+    "START_IMG": {
+      "description": "ضع صورة البوت مره تانيه",
+      "required": false
+    },
+    "PING_IMG": {
+      "description": "ضع صورة البوت",
+      "required": false
+    },
+    "PMPERMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "ENABLE"
+    },
+    "DURATION_LIMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "90"
+    }
+  }
+}
